@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-boot-starter-my-test</artifactId>
-    <version>test</version>
+    <version>1.0.1</version>
     <groupId>test</groupId>
     <parent>
         <groupId>org.springframework.boot</groupId>
