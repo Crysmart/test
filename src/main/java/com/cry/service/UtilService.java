@@ -1,10 +1,21 @@
 package com.cry.service;
 
-import com.cry.service.TestUtil;
 
 public class UtilService {
+    TestUtil testUtil;
+    public UtilService(){
+        testUtil = new TestUtil();
+    }
 
     public String stringMockAware(){
-        return new TestUtil().fucntion();
+        return testUtil.fucntion();
+    }
+
+    public TestUtil getTestUtil() {
+        return testUtil;
+    }
+
+    public void setTestUtil(TestUtil testUtil) {
+        this.testUtil = testUtil;
     }
 }
